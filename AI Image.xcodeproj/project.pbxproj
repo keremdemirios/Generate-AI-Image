@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		41BB27F62B83A76700933A4B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB27F52B83A76700933A4B /* APIService.swift */; };
+		41BB27F82B83A94900933A4B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB27F72B83A94900933A4B /* Model.swift */; };
+		41BB27FA2B83AA0300933A4B /* APIUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB27F92B83AA0300933A4B /* APIUrls.swift */; };
 		41C891DF2B7F930900DD8049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C891DE2B7F930900DD8049 /* AppDelegate.swift */; };
 		41C891E12B7F930900DD8049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C891E02B7F930900DD8049 /* SceneDelegate.swift */; };
 		41C891E32B7F930900DD8049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C891E22B7F930900DD8049 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		41BB27F52B83A76700933A4B /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		41BB27F72B83A94900933A4B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		41BB27F92B83AA0300933A4B /* APIUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrls.swift; sourceTree = "<group>"; };
 		41C891DB2B7F930900DD8049 /* AI Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C891DE2B7F930900DD8049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41C891E02B7F930900DD8049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				41C891E92B7F930A00DD8049 /* LaunchScreen.storyboard */,
 				41C891EC2B7F930A00DD8049 /* Info.plist */,
 				41BB27F52B83A76700933A4B /* APIService.swift */,
+				41BB27F72B83A94900933A4B /* Model.swift */,
+				41BB27F92B83AA0300933A4B /* APIUrls.swift */,
 			);
 			path = "AI Image";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BB27F82B83A94900933A4B /* Model.swift in Sources */,
 				41C891E32B7F930900DD8049 /* ViewController.swift in Sources */,
+				41BB27FA2B83AA0300933A4B /* APIUrls.swift in Sources */,
 				41C891DF2B7F930900DD8049 /* AppDelegate.swift in Sources */,
 				41BB27F62B83A76700933A4B /* APIService.swift in Sources */,
 				41C891E12B7F930900DD8049 /* SceneDelegate.swift in Sources */,
